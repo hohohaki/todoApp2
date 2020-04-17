@@ -87,7 +87,7 @@ class TodoComponent extends Component {
                           onChange={this.onChangeCheckbox}
                           classes={{root:'custom-icon-button'}}
                 />
-                <div className={`todoTitleContainer ${this.props.status ? 'done' : ''}`}>
+                <div className='todoTitleContainer'>
                     {this.state.isEditTitle
                     ? (
                         <div>
@@ -99,7 +99,7 @@ class TodoComponent extends Component {
                         </div>
                     )
                     : (
-                        <div className="todoTitle"
+                        <div className={`"todoTitle" ${this.props.status ? 'done' : ''}`}
                              onClick={this.onStartEditTitle}
                         >
                             {this.props.title}

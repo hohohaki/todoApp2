@@ -41,7 +41,7 @@ class AddTodoComponent extends Component {
                   className='addtodo-container'
             >
                 <Grid item xs={8}>
-                    <TextField label="Todo title"
+                    <TextField label="What are your plans?"
                                variant="outlined"
                                fullWidth
                                value={this.state.inputValue}

@@ -83,10 +83,6 @@ code {
   width: 250px;
 }
 
-.todo-list-container {
-  
-}
-
 .back-container {
   position: absolute;
   z-index: -1;
